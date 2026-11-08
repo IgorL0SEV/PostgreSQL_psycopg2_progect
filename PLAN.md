@@ -62,8 +62,8 @@ python --version
 - [x] **Шаг 7. README проекта.** Команды запуска, переменные окружения, как проверить.
 - [x] **Шаг 8. Справочник.** `reference/postgresql-psycopg2.md` — синтаксис, разбор терминов,
   отличия от SQLite, частые ошибки.
-- [x] **Шаг 9. Сдача и фиксация.** Критерии зачёта проверены прогоном, материалы в `education/`,
-  сдача — ссылкой на GitHub.
+- [x] **Шаг 9. Сдача и фиксация.** Критерии зачёта проверены прогоном; материалы —
+  в отдельном репозитории `PostgreSQL_psycopg2_progect`, сдача — ссылкой на GitHub.
 
 ## Результат проверки (2026-11-01)
 
@@ -87,11 +87,12 @@ python --version
 
 ```powershell
 # 1. Забрать материалы
-cd D:\claudeorchestrator          # на ноутбуке путь другой
-git pull origin master
+cd E:\!!!__VIBE_CODER_ПРОФЕССИЯ        # на ноутбуке путь другой
+git clone https://github.com/IgorL0SEV/PostgreSQL_psycopg2_progect.git
+# если папка уже есть: cd PostgreSQL_psycopg2_progect && git pull origin main
 
 # 2. Перейти в проект
-cd education\vibe-coding\m04-databases\vpc06-postgresql-psycopg2\project
+cd PostgreSQL_psycopg2_progect\project
 
 # 3. Создать окружение заново (venv в git не хранится)
 python -m venv venv
@@ -125,8 +126,8 @@ python main.py
 
 - **Пароль `postgres` помнит только человек** — в переписке и репозитории его нет.
   На другой машине он может отличаться, если PostgreSQL ставился отдельно.
-- **Рабочая копия проекта существует в двух местах**: в папке курса
-  `…\VPc06. PostgreSQL и psycopg2\project\` (на ПК) и в репозитории.
-  Канонической считается копия в репозитории — правки вносить только туда, иначе разойдутся.
+- **Копия проекта теперь одна** — папка `E:\!!!__VIBE_CODER_ПРОФЕССИЯ\PostgreSQL_psycopg2_progect`,
+  она же git-репозиторий [IgorL0SEV/PostgreSQL_psycopg2_progect](https://github.com/IgorL0SEV/PostgreSQL_psycopg2_progect).
+  Дубль из `education/` и скелет из папки урока удалены 2026-11-08 — правки вносить только в эту папку.
 - **pgAdmin** на ПК не установлен; в уроке он упоминается, но для работы достаточно
   DBeaver или `psql.exe` из `C:\Program Files\PostgreSQL\18\bin\`.

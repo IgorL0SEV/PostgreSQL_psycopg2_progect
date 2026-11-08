@@ -42,8 +42,9 @@ python main.py
 
 ```powershell
 # 1. Свежий код из репозитория
-git pull origin master
-cd education\vibe-coding\m04-databases\vpc06-postgresql-psycopg2\project
+git clone https://github.com/IgorL0SEV/PostgreSQL_psycopg2_progect.git
+cd PostgreSQL_psycopg2_progect\project
+# если папка уже есть: cd PostgreSQL_psycopg2_progect && git pull origin main
 
 # 2. Проверить, что сервер этой машины работает
 Get-Service -Name '*postgres*'

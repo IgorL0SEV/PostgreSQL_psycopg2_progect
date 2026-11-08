@@ -289,8 +289,8 @@ ORDER BY total_amount DESC, u.name ASC;
 [project/README.md](project/README.md). Коротко:
 
 ```powershell
-git pull origin master
-cd education\vibe-coding\m04-databases\vpc06-postgresql-psycopg2\project
+git pull origin main
+cd PostgreSQL_psycopg2_progect\project
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
