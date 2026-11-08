@@ -17,6 +17,7 @@
 | Файл | Что внутри |
 |---|---|
 | [CONSPECT.md](CONSPECT.md) | Конспект проекта: теория, разбор задания и нашего кода, самопроверка |
+| [SAMOPROVERKA.md](SAMOPROVERKA.md) | 15 вопросов с ответами (ответы под раскрывающимися блоками) |
 | [PLAN.md](PLAN.md) | План по шагам, статус, результат проверки |
 | [project/](project/) | Код: `main.py`, `postgres_driver.py`, `ensure_database.py`, README |
 | [reference/postgresql-psycopg2.md](reference/postgresql-psycopg2.md) | Справочник: термины, синтаксис, SQLite vs PostgreSQL, частые ошибки |
