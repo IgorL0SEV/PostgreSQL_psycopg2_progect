@@ -1,4 +1,4 @@
-# VPc06. PostgreSQL и psycopg2
+# VPc06 проект — PostgreSQL и psycopg2
 
 **Модуль:** 4. Базы данных · **СУБД:** PostgreSQL 18 · **Клиент:** DBeaver / psql
 
@@ -16,7 +16,7 @@
 
 | Файл | Что внутри |
 |---|---|
-| [CONSPECT.md](CONSPECT.md) | Конспект урока: теория, разбор задания и нашего кода, самопроверка |
+| [CONSPECT.md](CONSPECT.md) | Конспект проекта: теория, разбор задания и нашего кода, самопроверка |
 | [PLAN.md](PLAN.md) | План по шагам, статус, результат проверки |
 | [project/](project/) | Код: `main.py`, `postgres_driver.py`, `ensure_database.py`, README |
 | [reference/postgresql-psycopg2.md](reference/postgresql-psycopg2.md) | Справочник: термины, синтаксис, SQLite vs PostgreSQL, частые ошибки |

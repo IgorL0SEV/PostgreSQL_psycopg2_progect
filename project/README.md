@@ -1,6 +1,6 @@
 # VPc06 — проект: PostgreSQL + psycopg2
 
-Домашнее задание урока VPc06. Реализованы оба трека: базовый (чтение из `users`)
+VPc06 проект: домашнее задание. Реализованы оба трека: базовый (чтение из `users`)
 и средний (связи `users` ↔ `orders`, параметризованные вставки, `LEFT JOIN + SUM`).
 
 ## Состав
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 Copy-Item .env.example .env
 notepad .env
 
-# 3. Первый запуск — создать базу (в уроке это шаг в pgAdmin)
+# 3. Первый запуск — создать базу (в курсе это шаг в pgAdmin)
 python ensure_database.py
 
 # 4. Основной скрипт
