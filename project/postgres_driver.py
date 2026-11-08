@@ -1,4 +1,4 @@
-"""Драйвер PostgreSQL для урока VPc06.
+"""Драйвер PostgreSQL для проекта VPc06.
 
 Собирает всё общение с базой в один класс: подключение, создание таблиц,
 вставка пользователей и заказов, агрегирующий отчёт.
@@ -14,7 +14,7 @@ from decimal import Decimal
 import psycopg2
 from dotenv import load_dotenv
 
-# Схемы таблиц — из задания урока.
+# Схемы таблиц — из задания курса.
 # IF NOT EXISTS делает create_tables() безопасным при повторном запуске.
 CREATE_USERS_SQL = """
 CREATE TABLE IF NOT EXISTS users (
