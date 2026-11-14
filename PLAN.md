@@ -87,7 +87,7 @@ python --version
 
 ```powershell
 # 1. Забрать материалы
-cd E:\!!!__VIBE_CODER_ПРОФЕССИЯ        # на ноутбуке путь другой
+cd D:\python-projects                   # на другой машине путь может отличаться
 git clone https://github.com/IgorL0SEV/PostgreSQL_psycopg2_progect.git
 # если папка уже есть: cd PostgreSQL_psycopg2_progect && git pull origin main
 
@@ -126,7 +126,7 @@ python main.py
 
 - **Пароль `postgres` помнит только человек** — в переписке и репозитории его нет.
   На другой машине он может отличаться, если PostgreSQL ставился отдельно.
-- **Копия проекта теперь одна** — папка `E:\!!!__VIBE_CODER_ПРОФЕССИЯ\PostgreSQL_psycopg2_progect`,
+- **Копия проекта теперь одна** — папка `D:\python-projects\PostgreSQL_psycopg2_progect`,
   она же git-репозиторий [IgorL0SEV/PostgreSQL_psycopg2_progect](https://github.com/IgorL0SEV/PostgreSQL_psycopg2_progect).
   Дубль из `education/` и скелет из папки курса удалены 2026-11-08 — правки вносить только в эту папку.
 - **pgAdmin** на ПК не установлен; в курсе он упоминается, но для работы достаточно
